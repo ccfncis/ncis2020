@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7ef6a8-cff6-4df7-9cd7-957a26e8e8fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/NCIS 2019会议酒店住宿登记表.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hyjdyd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hyddjjt.html" beforeDir="false" afterPath="$PROJECT_DIR$/hyddjjt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zzs.html" beforeDir="false" afterPath="$PROJECT_DIR$/zzs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +39,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -88,8 +90,16 @@
       <workItem from="1557042377092" duration="12905000" />
       <workItem from="1557135430970" duration="743000" />
       <workItem from="1557368950603" duration="911000" />
-      <workItem from="1564567856386" duration="834000" />
+      <workItem from="1564567856386" duration="1826000" />
     </task>
+    <task id="LOCAL-00001" summary="会议交通指南 &amp; 会议酒店预订">
+      <created>1564568794975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564568794975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="会议交通指南 &amp; 会议酒店预订" />
+    <option name="LAST_COMMIT_MESSAGE" value="会议交通指南 &amp; 会议酒店预订" />
   </component>
 </project>
