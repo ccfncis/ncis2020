@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd7ef6a8-cff6-4df7-9cd7-957a26e8e8fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/agenda1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/agenda2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zzs.html" beforeDir="false" afterPath="$PROJECT_DIR$/zzs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dhsy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dhsy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyrc.html" beforeDir="false" afterPath="$PROJECT_DIR$/hyrc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/agenda1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/agenda2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/amethystum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amethystum.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +29,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>tybgr</find>
-      <find>dhbg</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -38,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Web/eggjs-ts/examples/hackernews-async-ts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,6 +49,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ncis2019\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\develop\workspace\hui\images" />
       <recent name="D:\develop\workspace\hui" />
@@ -90,7 +93,8 @@
       <workItem from="1557042377092" duration="12905000" />
       <workItem from="1557135430970" duration="743000" />
       <workItem from="1557368950603" duration="911000" />
-      <workItem from="1564567856386" duration="1826000" />
+      <workItem from="1564567856386" duration="6188000" />
+      <workItem from="1565750545776" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="会议交通指南 &amp; 会议酒店预订">
       <created>1564568794975</created>
@@ -99,7 +103,28 @@
       <option name="project" value="LOCAL" />
       <updated>1564568794975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="会议鸣谢">
+      <created>1564975927469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564975927469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="会议鸣谢">
+      <created>1564976097171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564976097171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="首页logo间距">
+      <created>1564976808525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564976808525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -118,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="会议交通指南 &amp; 会议酒店预订" />
-    <option name="LAST_COMMIT_MESSAGE" value="会议交通指南 &amp; 会议酒店预订" />
+    <MESSAGE value="会议鸣谢" />
+    <MESSAGE value="首页logo间距" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页logo间距" />
   </component>
 </project>
