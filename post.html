@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Template Title -->
-    <title>html5响应式手机APP软件下载介绍页面单页html模板 - </title>
+    <title>NCIS2020</title>
     <!-- Bootstrap 3.2.0 stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -77,8 +77,12 @@
 
           <div class="header">
             <h2>会议介绍</h2>
-            <p>本次会议是我国一年一度信息存储领域的盛会，会议将特邀本领域知名专家学者做大会专题演讲，举行学术报告和分组交流，举办青年学者论坛和博士生论坛，进行发展我国信息存储技术的专题研讨，开展大数据、云时代和软件定义存储等方面的新技术及新产品展示等活动，集中展示和报告国内外信息存储领域的最新动态，为信息存储相关领域的同仁提供交流合作、发布最前沿科研成果的平台，欢迎从事计算机尤其是信息存储及相关研究的同仁踊跃为大会投稿，并积极参会。</p>
+            <p id="intro">本次会议是我国一年一度信息存储领域的盛会，会议将特邀本领域知名专家学者做大会专题演讲，举行学术报告和分组交流，举办青年学者论坛和博士生论坛，进行发展我国信息存储技术的专题研讨...</p>
           </div> <!-- end .container> .header -->
+
+          <div class="button" id="download-app2" align="right" onclick="intro_handler()">
+            <a href="#download" class="btn btn-default btn-lg custom-btn get-btn" id="intro_but">展开</a>
+          </div>
 
         </div> <!-- end .container -->
       </div> <!-- end .features -->
@@ -91,55 +95,32 @@
         <div class="description-one section-padding dark-bg">
           <div class="container">
             <div class="row">
-              <div class="col-sm-7 col-md-6">
+              <div class="col-sm-12 col-md-12">
                 <div class="content">
-                  <h2>会议组织架构</h2>
-                  <p>
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;大会主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;舒继武&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清华大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;过敏意&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海交通大学<br />
+                  <h2 align="center">会议组织架构</h2>
+                  <p align="center" id="orga">
+                    <b>大会主席</b><br />
+                    舒继武&nbsp;&nbsp;&nbsp;清华大学<br />
+                    过敏意&nbsp;&nbsp;&nbsp;上海交通大学<br />
                     <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;大会指导委员会主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王意洁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国防科技大学<br />
+                    <b>大会指导委员会主席</b><br />
+                    王意洁&nbsp;&nbsp;&nbsp;国防科技大学<br />
                     <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;大会指导委员会共同副主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;肖侬&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国防科技大学/中山大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李战怀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;西北工业大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王芳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华中科技大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冯丹&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华中科技大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;朱平&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;江南计算所<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许鲁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中科院计算所<br />
-                    <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;程序委员会主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王意洁&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国防科技大学学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吴晨涛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海交通大学<br />
-                    <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;程序委员会副主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王新&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复旦大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;石亮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华东师范大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;殷树&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海科技大学<br />
-                    <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;优秀论文论坛主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吴晨涛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海交通大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;石亮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;华东师范大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;何水兵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙江大学<br />
-                    <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;专委会青年论坛主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夏文&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;哈尔滨工业大学（深圳）<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王新&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;复旦大学<br />
-                    <br />
-                    <b>&nbsp;&nbsp;&nbsp;&nbsp;企业论坛主席：</b><br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;殷树&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海科技大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李小勇&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海交通大学<br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游录金&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天玑科技<br />
+                    <b>大会指导委员会共同副主席</b><br />
+                    肖侬&nbsp;&nbsp;&nbsp;国防科技大学/中山大学<br />
+                    李战怀&nbsp;&nbsp;&nbsp;西北工业大学<br />
+                    王芳&nbsp;&nbsp;&nbsp;华中科技大学<br />
+                    冯丹&nbsp;&nbsp;&nbsp;华中科技大学<br />
+                    朱平&nbsp;&nbsp;&nbsp;江南计算所<br />
+                    许鲁&nbsp;&nbsp;&nbsp;中科院计算所<br />
+                    ...
                   </p>
-
-                  <div class="button" id="download-app2">
-                    <a href="#download" class="btn btn-default btn-lg custom-btn get-btn"><i class="fa fa-cloud-download"></i>Get App</a>
-                  </div>
                 </div>
               </div>
             </div> <!-- .container> .row -->
+            <div class="button" id="download-app2" align="right" onclick="orga_handler()">
+              <a href="#download" class="btn btn-default btn-lg custom-btn get-btn" id="orga_but">展开</a>
+            </div>
           </div> <!-- .container -->
         </div> <!-- end .description-one -->
 
@@ -156,31 +137,86 @@
         <div class="container">
 
           <div class="header">
-            <h1>App Screenshots</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nesciunt eos, ipsum id, architecto velit sequi fuga minima commodi, porro vitae officiis, voluptatibus minus voluptates ab. Dolore, dolor repellat quasi.</p>
-            <div class="underline"><i class="fa fa-image"></i></div>
+            <h2>合作单位</h2>
+            <br />
           </div>
 
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <a href="images/app.jpg" data-rel="prettyPhoto"><img src="images/app.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-            <div class="item">
-              <a href="images/app2.jpg" data-rel="prettyPhoto"><img src="images/app2.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-            <div class="item">
-              <a href="images/app.jpg" data-rel="prettyPhoto"><img src="images/app.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-            <div class="item">
-              <a href="images/app2.jpg" data-rel="prettyPhoto"><img src="images/app2.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-            <div class="item">
-              <a href="images/app.jpg" data-rel="prettyPhoto"><img src="images/app.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-            <div class="item">
-              <a href="images/app2.jpg" data-rel="prettyPhoto"><img src="images/app2.jpg" alt="item photo"></a>
-            </div> <!-- end item -->
-          </div> <!-- end owl carousel -->
+          <div class="row" align="center">
+            <div class="col-sm-12 col-md-12">
+              <div class="content" align="center">
+                <p id="sup">
+                  <b>主办单位</b><br />
+                  中国计算机学会（CCF）<br />
+                  <img src="img/ccf_logo.png" alt="item photo" style="width:30%">
+
+                  <br />
+                  
+                  
+                  <b>承办单位</b><br />
+                  CCF信息存储技术专业委员会<br />
+                  上海交通大学<br />
+                  <br />
+                  <div class="col-sm-6 col-md-6 owl-carousel owl-theme">
+                    <div class="item">
+                      <a href="img/cczw.png" data-rel="prettyPhoto"><img src="img/cczw.png" alt="item photo" style="width:100%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/sjtu_ver.png" data-rel="prettyPhoto"><img src="img/sjtu_ver.png" alt="item photo" style="width:100%"></a>
+                    </div> <!-- end item -->
+                  </div> <!-- end owl carousel -->
+
+                  <div id="sup_tail" style="display: none;">
+                  <b>协办单位</b><br />
+                  复旦大学<br />
+                  华东师范大学<br />
+                  上海科技大学<br />
+                  <br />
+                  <div class="col-sm-6 col-md-6 owl-carousel owl-theme">
+                    <div class="item">
+                      <a href="img/fudan2.jpg" data-rel="prettyPhoto"><img src="img/fudan2.jpg" alt="item photo" style="width:50%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/hdsf.png" data-rel="prettyPhoto"><img src="img/hdsf.png" alt="item photo" style="width:50%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/shkjdx.png" data-rel="prettyPhoto"><img src="img/shkjdx.png" alt="item photo" style="width:50%"></a>
+                    </div> <!-- end item -->
+                  </div> <!-- end owl carousel -->
+
+                  <b>合作企业</b><br />
+                  华为（钻石赞助）<br />
+                  阿里云（钻石赞助）<br />
+                  紫金存储（铂金赞助）<br />
+                  紫金存储（铂金赞助）<br />
+                  柏科数据（金牌赞助）<br />
+                  <br />
+                  <div class="col-sm-4 col-md-4 owl-carousel owl-theme">
+                    <div class="item">
+                      <a href="img/huawei.png" data-rel="prettyPhoto"><img src="img/huawei.png" alt="item photo" style="width:80%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/aliyun_2.png" data-rel="prettyPhoto"><img src="img/aliyun_2.png" alt="item photo" style="width:80%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/amethystum.png" data-rel="prettyPhoto"><img src="img/amethystum.jpg" alt="item photo" style="width:80%"></a>
+                    </div> <!-- end item -->
+                    <div class="item">
+                      <a href="img/bksj.png" data-rel="prettyPhoto"><img src="img/bksj.png" alt="item photo" style="width:80%"></a>
+                    </div> <!-- end item -->
+                  </div> <!-- end owl carousel -->
+
+                  <b>合作媒体</b><br />
+                  合作媒体<br />
+                  <img src="img/DOIT.png" alt="item photo" style="width:40%">
+                  </div>
+                </p>
+            </div>
+            <div class="button" id="download-app2" align="right" onclick="sup_handler()">
+              <a href="#download" class="btn btn-default btn-lg custom-btn get-btn" id="sup_but">展开</a>
+            </div>
+          </div> <!-- .container> .row -->
+
+          
 
         </div> <!-- .container -->
       </div> <!-- end .screenshots -->  
@@ -189,389 +225,32 @@
 
 
 
-
-
-    <!-- ====== Testimonial Section ====== -->
-    <section id="testimonial">
-      <div class="bg-color bg-testimonial">
-        <div class="testimonial section-padding">
-          <div class="container">
-            <div class="testimonial-slide">
-              <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-testimonial" data-slide-to="1" class=""></li>
-                  <li data-target="#carousel-testimonial" data-slide-to="2" class=""></li>
-                </ol>
-                <div class="carousel-inner">
-
-                  <div class="item">
-                    <div class="image">
-                      <img src="images/01.jpg" alt="">
-                    </div> <!-- end .image -->
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
-                      <h4>Jon Doe</h4>
-                      <h5>Web developer</h5>
-                    </div> <!-- end .content -->
-                  </div> <!-- end .item (1) -->
-
-                  <div class="item active left">
-                    <div class="image">
-                      <img src="images/02.jpg" alt="">
-                    </div> <!-- end .image -->
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
-                      <h4>Jon Doe</h4>
-                      <h5>Web developer</h5>
-                    </div> <!-- end .content -->
-                  </div> <!-- end .item (2) -->
-
-                  <div class="item next left">
-                    <div class="image">
-                      <img src="images/03.jpg" alt="">
-                    </div> <!-- end .image -->
-                    <div class="content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dignissimos ipsam obcaecati corrupti modi, deserunt facere asperiores. Voluptatum laudantium ut, minus nam. Libero facilis aspernatur cumque, quisquam quod sint odit.</p>
-                      <h4>Jon Doe</h4>
-                      <h5>Web developer</h5>
-                    </div> <!-- end .content -->
-                  </div> <!-- end .item (3) -->
-
-                </div> <!-- end .carousel-inner -->
-              </div> <!-- end #carousel-testimonial -->
-            </div> <!-- end .testimonial-slide -->
-          </div> <!-- end .container -->
-        </div> <!-- end .testimonial -->
-      </div> <!-- end .bg-testimonial -->
-    </section>
-    <!-- ====== End Testimonial Section ====== -->
-
-
-    <!-- ====== Team Section ====== -->
-    <section id="team">
-      <div class="team section-padding">
-        <div class="container">
-
-          <div class="header">
-            <h1>Who develop the App</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic laboriosam odio doloribus suscipit error nostrum totam dignissimos esse numquam voluptatum, aspernatur est.</p>
-            <div class="underline"><i class="fa fa-users"></i></div>
-          </div> <!-- end .container> .header -->
-
-          <div class="row">
-            <div class="app-dev">
-
-              <div class="col-sm-6 col-md-6 col-lg-3 info">
-                <div class="member">
-                  <img src="images/01.jpg" alt="">
-                  <div class="details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam molestias saepe ipsa autem, odio.</p>
-                    <div class="social icon">
-                      <ul>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      </ul>
-                    </div> <!-- end .icon -->
-                  </div> <!-- end .details -->
-                </div> <!-- end .member -->
-                <div class="title">
-                  <h4>Margery Key</h4>
-                  <h5>Lead Developer</h5>
-                </div> <!-- end .title -->
-              </div> <!-- end .info (1) -->
-
-              <div class="col-sm-6 col-md-6 col-lg-3 info">
-                <div class="member">
-                  <img src="images/02.jpg" alt="">
-                  <div class="details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam molestias saepe ipsa autem, odio.</p>
-                    <div class="social icon">
-                      <ul>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      </ul>
-                    </div> <!-- end .icon -->
-                  </div> <!-- end .details -->
-                </div> <!-- end .member -->
-                <div class="title">
-                  <h4>Shirley Bergeron</h4>
-                  <h5>UI/UX Designer</h5>
-                </div> <!-- end .title -->
-              </div> <!-- end .info (2) -->
-
-              <div class="col-sm-6 col-md-6 col-lg-3 info">
-                <div class="member">
-                  <img src="images/03.jpg" alt="">
-                  <div class="details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam molestias saepe ipsa autem, odio.</p>
-                    <div class="social icon">
-                      <ul>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      </ul>
-                    </div> <!-- end .icon -->
-                  </div> <!-- end .details -->
-                </div> <!-- end .member -->
-                <div class="title">
-                  <h4>Ryan Elder</h4>
-                  <h5>Front End Developer</h5>
-                </div> <!-- end .title -->
-              </div> <!-- end .info (3) -->
-
-              <div class="col-sm-6 col-md-6 col-lg-3 info">
-                <div class="member">
-                  <img src="images/04.jpg" alt="">
-                  <div class="details">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veniam molestias saepe ipsa autem, odio.</p>
-                    <div class="social icon">
-                      <ul>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      </ul>
-                    </div> <!-- end .icon -->
-                  </div> <!-- end .details -->
-                </div> <!-- end .member -->
-                <div class="title">
-                  <h4>Daisy Baker</h4>
-                  <h5>Marketer</h5>
-                </div> <!-- end .title -->
-              </div> <!-- end .info (4) -->
-
-            </div> <!-- end .app-dev -->
-          </div> <!-- end .container> .row -->
-
-        </div> <!-- end .container -->
-      </div> <!-- end .team -->
-    </section>
-    <!-- ====== Team Section ====== -->
-
-
     <!-- ====== Price Section ====== -->
     <section id="price">
       <div class="price section-padding dark-bg">
-        <div class="container">
+        <div class="container" align="center">
 
           <div class="header">
-            <h1>Pricing</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic laboriosam odio doloribus suscipit error nostrum totam dignissimos esse numquam voluptatum, aspernatur est, at voluptatem minus</p>
-            <div class="underline"><i class="fa fa-users"></i></div>
+            <h3>日期</h3>
+            <p>2020年9月24-25日</p>
+            <h3>地址</h3>
+            <p>上海市闵行区紫星路588号3幢<br/>上海紫竹万怡酒店（四星级）</p>
           </div> <!-- end .container> .header -->
+          <img src="./img/loc.png" style="width: 60%; max-width: 400px;">
 
-          <div class="row">
-            <div class="price-list">
-
-              <div class="col-md-4"> 
-                <div class="price-table">
-                  <div class="rate">$0.00</div>
-                  <h2>Free Download</h2>      
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsa laborum vel in sint</p>
-                  <ul>
-                    <li><i class="fa fa-check"></i>This Feature Available</li>
-                    <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
-                    <li><i class="fa fa-times"></i>Available</li>
-                    <li><i class="fa fa-times"></i>Fugit ipsa laborum</li>
-                    <li><i class="fa fa-times"></i>consectetur adipisicing</li>
-                    <li><i class="fa fa-times"></i>Lorem ipsum dolor</li>
-                  </ul>
-                  <a href="#download" class="btn btn-default buy-now">Download</a>
-                </div> <!-- end .price-table -->
-              </div> <!-- end .price-list> .col-md-4 (1) -->
-
-              <div class="col-md-4"> 
-                <div class="price-table featured-price">
-                  <div class="rate">$1.99</div>
-                  <h2>Standard</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsa laborum vel in sint</p>
-                  <ul>
-                    <li><i class="fa fa-check"></i>This Feature</li>
-                    <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
-                    <li><i class="fa fa-check"></i>Feature Available</li>
-                    <li><i class="fa fa-check"></i>Fugit ipsa laborum vel</li>
-                    <li><i class="fa fa-times"></i>consectetur adipisicing</li>
-                    <li><i class="fa fa-times"></i>Lorem ipsum dolor</li>
-                  </ul>
-                  <a href="#download" class="btn btn-default buy-now">Buy Now</a>
-                </div> <!-- end .price-table -->
-              </div> <!-- end .price-list> .col-md-4 (2) -->
-
-              <div class="col-md-4">
-                <div class="price-table">
-                  <div class="rate">$3.99</div> 
-                  <h2>Premium</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsa laborum vel in sint</p>
-                  <ul>
-                    <li><i class="fa fa-check"></i>This Feature Available</li>
-                    <li><i class="fa fa-check"></i>consectetur adipisicing</li>
-                    <li><i class="fa fa-check"></i>Lorem ipsum dolor</li>
-                    <li><i class="fa fa-check"></i>Fugit ipsa laborum vel</li>
-                    <li><i class="fa fa-check"></i>inventore</li>
-                    <li><i class="fa fa-check"></i>inventore hic</li>
-                  </ul>
-                  <a href="#download" class="btn btn-default buy-now">Buy Now</a>
-                </div> <!-- end .price-table -->
-              </div> <!-- end .price-list> .col-md-4 (3) -->
-
-            </div> <!-- end .price-list -->
-          </div> <!-- end .container> .row -->
+          <br/><br/>
+          <div class="row" align="center">
+            <div class="col-sm-12 col-md-12">
+              <p>扫描以下二维码立即报名参会</p>
+              <img src="./img/ewm.png" style="width: 40%; max-width: 150px;">
+            </div>
+        </div>
 
         </div> <!-- end .container -->
       </div> <!-- end .price -->
     </section>
     <!-- ====== End Price Section ====== -->
 
-
-    <!-- ====== Subscribe Section ====== -->
-    <section id="subscribe">
-      <div class="subscribe section-padding">
-        <div class="container">
-          <div class="subscribe-header">
-            <h1>Newsletter</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <form action="" class="form subscribe-form">
-              <div class="form-group">
-                <div class="input-group">
-                  <label for="f-name" class="sr-only">Newsletter</label>
-                  <input type="text" class="form-control" id="f-name" placeholder="Enter your email address">
-                  <div class="input-group-addon">
-                    <button class="" type="submit">SUBMIT</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="social">
-            <ul>
-              <li><a class="twitter" href=""><i class="fa fa-twitter"></i></a></li> 
-              <li><a class="facebook" href=""><i class="fa fa-facebook"></i></a></li> 
-              <li><a class="google-plus" href=""><i class="fa fa-google-plus"></i></a></li> 
-              <li><a class="youtube" href=""><i class="fa fa-youtube"></i></a></li> 
-              <li><a class="linkedin" href=""><i class="fa fa-linkedin"></i></a></li> 
-              <li><a class="pinterest" href=""><i class="fa fa-pinterest"></i></a></li> 
-              <li><a class="dribbble" href=""><i class="fa fa-dribbble"></i></a></li> 
-              <li><a class="flickr" href=""><i class="fa fa-flickr"></i></a></li>          
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ====== End Subscribe Section ====== -->
-
-
-    <!-- ====== Download Section ====== -->
-    <section id="download">
-      <div class="bg-color">
-        <div class="download section-padding">
-          <div class="container">
-
-            <div class="header">
-              <h1>Download <strong>Blue App</strong> for your OS</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptatum hic, facere adipisci, placeat ipsa corporis suscipit officiis labore ipsam, laudantium earum ducimus.</p>
-              <div class="underline"><i class="fa fa-cloud-download"></i></div>
-            </div> <!-- end .container > .header -->
-
-            <div class="row download-area">
-
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="" class="btn btn-default custom-btn download-btn">
-                  <i class="fa fa-mobile"></i>
-                  <div class="app-download">
-                    <span>Download on the</span><strong>App Store</strong>
-                  </div>
-                </a>
-              </div> <!-- end .download-area> .col-lg-3 (1) -->
-
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="" class="btn btn-default custom-btn download-btn">
-                <img src="images/playstore.png" alt="">
-                <div class="app-download">
-                  <span>GET IT ON</span><strong>Google Play</strong>
-                </div></a>
-              </div> <!-- end .download-area> .col-lg-3 (2) -->
-
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="" class="btn btn-default custom-btn download-btn">
-                <i class="fa fa-windows"></i>
-                <div class="app-download">
-                  <span>Available for</span>Windows Phone
-                </div>
-                </a>
-              </div> <!-- end .download-area> .col-lg-3 (3) -->
-
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <a href="" class="btn btn-default custom-btn download-btn">
-                <img src="images/amazon.png" alt="">
-                <div class="app-download">
-                  <span>Available at</span><strong>Aamazon</strong>
-                </div>
-                </a>
-              </div> <!-- end .download-area> .col-lg-3 (4) --> 
-
-            </div> <!-- end .container > .row/.download-area -->
-
-          </div> <!-- end .container -->
-        </div> <!-- end .download -->
-      </div> <!-- end .bg-color -->
-    </section>
-    <!-- ====== End Download Section ====== -->
-
-
-    <!-- ====== Contact Section ====== -->
-    <footer id="contact">
-      <div class="footer section-padding">
-        <div class="container">
-          <h1>Contact Us</h1>
-          <form action="" class="form contact">
-
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <div class="form-group">
-                  <label for="name" class="sr-only">Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Name">
-                </div> <!-- end .form-group -->
-
-                <div class="form-group">
-                  <label for="email" class="sr-only">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Email">
-                </div> <!-- end .form-group -->
-
-                <div class="form-group">
-                  <label for="subject" class="sr-only">Subject</label>
-                  <input type="text" class="form-control" id="subject" placeholder="Subject">
-                </div> <!-- end .form-group -->
-              </div> <!-- end .form> .row> .col-md-4 -->
-              
-              <div class="col-xs-12 col-md-6">
-                <div class="form-group">
-                  <label for="message" class="sr-only">Message</label>
-                  <textarea name="message" id="message" placeholder="Message"></textarea>
-                </div> <!-- end .form-group -->
-              </div>
-            </div> <!-- end .form> .row -->
-
-            <button class="btn btn-default contact-submit custom-btn" type="submit"><i class="fa fa-hand-o-right"></i>SUBMIT</button>
-          </form> <!-- end .form -->   
-        </div> <!-- end .container -->
-      </div> <!-- end .footer -->
-    </footer>
-    <!-- ====== End Contact Section ====== -->
-
-
-    <!-- ====== Copyright Section ====== -->
-    <section class="copyright dark-bg">
-      <div class="container">
-        <p>Copyright &copy; 2020.Company name All rights reserved.</p>
-      </div> <!-- end .container -->
-    </section>
-    <!-- ====== End Copyright Section ====== -->
 
 
     <!-- jQuery -->
@@ -616,4 +295,78 @@
       });
     </script>
   </body>
+
+  <script>
+    var intro_state = 0
+
+    function intro_handler(){
+      if(intro_state == 0){
+        intro_state = 1
+        more_intro()
+      }else{
+        intro_state = 0
+        less_intro()
+      }
+    }
+
+    function more_intro(){
+      document.getElementById("intro").innerHTML = "本次会议是我国一年一度信息存储领域的盛会，会议将特邀本领域知名专家学者做大会专题演讲，举行学术报告和分组交流，举办青年学者论坛和博士生论坛，进行发展我国信息存储技术的专题研讨，开展大数据、云时代和软件定义存储等方面的新技术及新产品展示等活动，集中展示和报告国内外信息存储领域的最新动态，为信息存储相关领域的同仁提供交流合作、发布最前沿科研成果的平台，欢迎从事计算机尤其是信息存储及相关研究的同仁踊跃为大会投稿，并积极参会。"
+      document.getElementById("intro_but").innerHTML = "收起"
+    }
+
+    function less_intro(){
+      document.getElementById("intro").innerHTML = "本次会议是我国一年一度信息存储领域的盛会，会议将特邀本领域知名专家学者做大会专题演讲，举行学术报告和分组交流，举办青年学者论坛和博士生论坛，进行发展我国信息存储技术的专题研讨..."
+      document.getElementById("intro_but").innerHTML = "展开"
+    }
+  </script>
+
+<script>
+  var orga_state = 0
+
+  function orga_handler(){
+    if(orga_state == 0){
+      orga_state = 1
+      more_orga()
+    }else{
+      orga_state = 0
+      less_orga()
+    }
+  }
+
+  function more_orga(){
+    document.getElementById("orga").innerHTML = "<b>大会主席</b><br />舒继武&nbsp;&nbsp;&nbsp;清华大学<br />过敏意&nbsp;&nbsp;&nbsp;上海交通大学<br /><br /><b>大会指导委员会主席</b><br />王意洁&nbsp;&nbsp;&nbsp;国防科技大学<br /><br /><b>大会指导委员会共同副主席</b><br />肖侬&nbsp;&nbsp;&nbsp;国防科技大学/中山大学<br />李战怀&nbsp;&nbsp;&nbsp;西北工业大学<br />王芳&nbsp;&nbsp;&nbsp;华中科技大学<br />冯丹&nbsp;&nbsp;&nbsp;华中科技大学<br />朱平&nbsp;&nbsp;&nbsp;江南计算所<br />许鲁&nbsp;&nbsp;&nbsp;中科院计算所<br /><br /><b>程序委员会主席</b><br />王意洁&nbsp;&nbsp;&nbsp;国防科技大学学<br />吴晨涛&nbsp;&nbsp;&nbsp;上海交通大学<br /><br /><b>程序委员会副主席</b><br />王新&nbsp;&nbsp;&nbsp;复旦大学<br />石亮&nbsp;&nbsp;&nbsp;华东师范大学<br />殷树&nbsp;&nbsp;&nbsp;上海科技大学<br /><br /><b>优秀论文论坛主席</b><br />吴晨涛&nbsp;&nbsp;&nbsp;上海交通大学<br />石亮&nbsp;&nbsp;&nbsp;华东师范大学<br />何水兵&nbsp;&nbsp;&nbsp;浙江大学<br /><br /><b>专委会青年论坛主席</b><br />夏文&nbsp;&nbsp;&nbsp;哈尔滨工业大学（深圳）<br />王新&nbsp;&nbsp;&nbsp;复旦大学<br /><br /><b>企业论坛主席</b><br />殷树&nbsp;&nbsp;&nbsp;上海科技大学<br />李小勇&nbsp;&nbsp;&nbsp;上海交通大学<br />游录金&nbsp;&nbsp;&nbsp;天玑科技<br />"
+    document.getElementById("orga_but").innerHTML = "收起"
+  }
+
+  function less_orga(){
+    document.getElementById("orga").innerHTML = "<b>大会主席</b><br />舒继武&nbsp;&nbsp;&nbsp;清华大学<br />过敏意&nbsp;&nbsp;&nbsp;上海交通大学<br /><br /><b>大会指导委员会主席</b><br />王意洁&nbsp;&nbsp;&nbsp;国防科技大学<br /><br /><b>大会指导委员会共同副主席</b><br />肖侬&nbsp;&nbsp;&nbsp;国防科技大学/中山大学<br />李战怀&nbsp;&nbsp;&nbsp;西北工业大学<br />王芳&nbsp;&nbsp;&nbsp;华中科技大学<br />冯丹&nbsp;&nbsp;&nbsp;华中科技大学<br />朱平&nbsp;&nbsp;&nbsp;江南计算所<br />许鲁&nbsp;&nbsp;&nbsp;中科院计算所<br />..."
+    document.getElementById("orga_but").innerHTML = "展开"
+  }
+</script>
+
+<script>
+  var sup_state = 0
+
+  function sup_handler(){
+    if(sup_state == 0){
+      sup_state = 1
+      more_sup()
+    }else{
+      sup_state = 0
+      less_sup()
+    }
+  }
+
+  function more_sup(){
+    document.getElementById("sup_tail").style.display="";
+    document.getElementById("sup_but").innerHTML = "收起"
+  }
+
+  function less_sup(){
+    document.getElementById("sup_tail").style.display="none";
+    document.getElementById("sup_but").innerHTML = "展开"
+  }
+</script>
+
 </html>
+
